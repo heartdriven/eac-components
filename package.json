@@ -2,6 +2,22 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.19.0"
+    "@babel/core": "^7.7.4",
+    "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-links": "^5.2.6",
+    "@storybook/addons": "^5.2.6",
+    "@storybook/vue": "^5.2.6",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "lerna": "^3.19.0",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }

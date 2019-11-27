@@ -14,7 +14,10 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "vue": "^2.6.10"
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vue": "^2.6.10",
+    "vue-feather-icons": "^5.0.0"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",

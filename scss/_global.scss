@@ -1,0 +1,59 @@
+
+// GENERAL:
+$box-padding-tb: 30px;
+$box-padding-lr: 40px;
+$box-gap: 30px;
+
+$common-item-gap: 20px;
+$common-font-family: 'Open Sans', Verdana, sans-serif;
+
+// Colors:
+$ui-color-bg: #FFFFFF;
+$ui-color-bg-variant: #EEEEEE;
+
+$ui-color-01: #18527B;
+$ui-color-03: #A7134D;
+$ui-color-05: #0E2A45;
+$ui-color-06: #176F83;
+$ui-color-07: #666666;
+$ui-color-08: #333333;
+
+body {
+  font-family: $common-font-family;
+  background-color: $ui-color-bg-variant;
+  margin: 3em;
+  font-size: 17px;
+}
+
+button {
+  font-size: 1em;
+  font-family: $common-font-family;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+h3 {
+  color: #0C343D;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: Arial, sans-serif;
+  &::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #176F83;
+  }
+}
